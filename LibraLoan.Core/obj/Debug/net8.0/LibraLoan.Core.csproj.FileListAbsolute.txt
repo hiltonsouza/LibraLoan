@@ -10,3 +10,15 @@ C:\Users\SouzaHi1\source\repos\LibraLoan\LibraLoan\LibraLoan.Core\obj\Debug\net8
 C:\Users\SouzaHi1\source\repos\LibraLoan\LibraLoan\LibraLoan.Core\obj\Debug\net8.0\refint\LibraLoan.Core.dll
 C:\Users\SouzaHi1\source\repos\LibraLoan\LibraLoan\LibraLoan.Core\obj\Debug\net8.0\LibraLoan.Core.pdb
 C:\Users\SouzaHi1\source\repos\LibraLoan\LibraLoan\LibraLoan.Core\obj\Debug\net8.0\ref\LibraLoan.Core.dll
+C:\Users\SouzaHi1\source\repos\LibraLoan\LibraLoan.Core\bin\Debug\net8.0\LibraLoan.Core.deps.json
+C:\Users\SouzaHi1\source\repos\LibraLoan\LibraLoan.Core\bin\Debug\net8.0\LibraLoan.Core.dll
+C:\Users\SouzaHi1\source\repos\LibraLoan\LibraLoan.Core\bin\Debug\net8.0\LibraLoan.Core.pdb
+C:\Users\SouzaHi1\source\repos\LibraLoan\LibraLoan.Core\obj\Debug\net8.0\LibraLoan.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SouzaHi1\source\repos\LibraLoan\LibraLoan.Core\obj\Debug\net8.0\LibraLoan.Core.AssemblyInfoInputs.cache
+C:\Users\SouzaHi1\source\repos\LibraLoan\LibraLoan.Core\obj\Debug\net8.0\LibraLoan.Core.AssemblyInfo.cs
+C:\Users\SouzaHi1\source\repos\LibraLoan\LibraLoan.Core\obj\Debug\net8.0\LibraLoan.Core.csproj.CoreCompileInputs.cache
+C:\Users\SouzaHi1\source\repos\LibraLoan\LibraLoan.Core\obj\Debug\net8.0\LibraLoan.Core.sourcelink.json
+C:\Users\SouzaHi1\source\repos\LibraLoan\LibraLoan.Core\obj\Debug\net8.0\LibraLoan.Core.dll
+C:\Users\SouzaHi1\source\repos\LibraLoan\LibraLoan.Core\obj\Debug\net8.0\refint\LibraLoan.Core.dll
+C:\Users\SouzaHi1\source\repos\LibraLoan\LibraLoan.Core\obj\Debug\net8.0\LibraLoan.Core.pdb
+C:\Users\SouzaHi1\source\repos\LibraLoan\LibraLoan.Core\obj\Debug\net8.0\ref\LibraLoan.Core.dll

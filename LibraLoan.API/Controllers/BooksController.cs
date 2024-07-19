@@ -62,7 +62,7 @@ namespace LibraLoan.API.Controllers
             return NoContent();
         }
 
-        [HttpPut("/registerloan")]
+        [HttpPut("registerloan")]
         [Authorize(Roles = "client, employee")]
         public async Task<IActionResult> RegisterLoan([FromBody] LoanBookCommand command)
         {

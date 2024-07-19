@@ -4,6 +4,7 @@ using MediatR;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Newtonsoft.Json;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +12,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
+
 builder.Services.AddApplication();
 
 builder.Services.AddInfrastructure(builder.Configuration);
@@ -58,6 +60,31 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidAudience = builder.Configuration["Jwt:Audience"],
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
         };
+        options.Events = new JwtBearerEvents
+        {
+            //OnAuthenticationFailed = context =>
+            //{
+            //    context.Response.StatusCode = 401;
+            //    context.Response.ContentType = "application/json";
+            //    var result = JsonConvert.SerializeObject(new { message = "Authentication failed" });
+            //    return context.Response.WriteAsync(result);
+            //},
+            //OnChallenge = context =>
+            //{
+            //    context.HandleResponse();
+            //    context.Response.StatusCode = 401;
+            //    context.Response.ContentType = "application/json";
+            //    var result = JsonConvert.SerializeObject(new { message = "You are not authorized" });
+            //    return context.Response.WriteAsync(result);
+            //},
+            OnForbidden = context =>
+            {
+                context.Response.StatusCode = 403;
+                context.Response.ContentType = "application/json";
+                var result = JsonConvert.SerializeObject(new { messege = "You do not have permission to access this method" });
+                return context.Response.WriteAsync(result);
+            }
+        };
     });
 
 var app = builder.Build();
@@ -69,13 +96,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-// Código de verificação
-var provider = builder.Services.BuildServiceProvider();
-var mediator = provider.GetService<IMediator>();
-if (mediator == null)
-{
-    throw new Exception("IMediator não foi registrado.");
-}
 
 app.UseHttpsRedirection();
 

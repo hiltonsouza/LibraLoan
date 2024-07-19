@@ -1,5 +1,5 @@
 ﻿using LibraLoan.Application.Commands.CreateUser;
-using LibraLoan.Application.InputModels;
+using LibraLoan.Application.Commands.LoginUser;
 using LibraLoan.Application.Queries.GetUser;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;

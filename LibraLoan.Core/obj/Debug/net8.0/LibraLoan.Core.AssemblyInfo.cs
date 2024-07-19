@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LibraLoan.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf40b6d5887ce4261075ea217f4f3ebc510e31a1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a52593251c9d7aeeefe296ea959d4098cb62f6b8")]
 [assembly: System.Reflection.AssemblyProductAttribute("LibraLoan.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LibraLoan.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
