@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "8GnYX8TUDTCsUjAZ4Lw7PRyIYKDPgmpqOkT4+mBfD7c=",
+  "Source": "LibraLoan.API",
+  "BasePath": "_content/LibraLoan.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
