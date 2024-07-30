@@ -18,16 +18,3 @@ LibraLoan is a CRUD system for managing books in a library, developed using .NET
 - Lending and Returning Books
 - User Registration and Listing
 
-## Upcoming Implementations
-- Web Page using Blazor
-- Messaging with RabbitMQ
-
-## Getting Started
-### Prerequisites
-- .NET 8 SDK
-- SQL Server or any supported database
-
-### Installation
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/yourusername/LibraLoan.git
